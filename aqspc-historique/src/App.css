@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::selection {
+    background: rgb(0, 255, 166);
+    color: rgb(247, 0, 223);
+}
+
+@font-face {
+    font-family: "Anaheim";
+    src: url("../src/assets/fonts/Anaheim-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Infinity";
+    src: url("../src/assets/fonts/INFINITY-Black.otf") format("opentype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Infinity";
+    src: url("../src/assets/fonts/INFINITY-Light.otf") format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Infinity";
+    src: url("../src/assets/fonts/INFINITY-Medium.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Infinity";
+    src: url("../src/assets/fonts/INFINITY-Regular.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Infinity";
+    src: url("../src/assets/fonts/INFINITY-Thin.otf") format("opentype");
+    font-weight: 100;
+}
